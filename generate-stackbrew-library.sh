@@ -10,9 +10,10 @@ cd "$(dirname "$(readlink -f "$BASH_SOURCE")")"
 
 versions=( */ )
 versions=( "${versions[@]%/}" )
-url='git://github.com/docker-library/buildpack-deps'
+url='git://github.com/resin-io-library/buildpack-deps'
 
 echo '# maintainer: InfoSiftr <github@infosiftr.com> (@infosiftr)'
+echo '# maintainer: Trong Nghia Nguyen - resin.io <james@resin.io>'
 
 for version in "${versions[@]}"; do
 	versionAliases=( $version ${aliases[$version]} )
