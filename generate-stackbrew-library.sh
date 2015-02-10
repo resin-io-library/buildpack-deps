@@ -10,7 +10,7 @@ cd "$(dirname "$(readlink -f "$BASH_SOURCE")")"
 
 versions=( */ )
 versions=( "${versions[@]%/}" )
-url='git://github.com/nghiant2710/buildpack-deps'
+url='git://github.com/resin-io-library/buildpack-deps'
 
 echo '# maintainer: InfoSiftr <github@infosiftr.com> (@infosiftr)'
 echo '# maintainer: Trong Nghia Nguyen - resin.io <james@resin.io>'
