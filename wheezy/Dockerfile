@@ -1,4 +1,4 @@
-FROM buildpack-deps:wheezy-scm
+FROM resin/rpi-buildpack-deps:wheezy-scm
 
 RUN apt-get update && apt-get install -y \
 		autoconf \
