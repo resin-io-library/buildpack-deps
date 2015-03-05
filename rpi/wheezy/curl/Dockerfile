@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian:wheezy
+FROM resin/armv7hf-debian:wheezy
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		ca-certificates \
